@@ -1,0 +1,43 @@
+.header {
+  display: grid;
+  grid-template-rows: min-content min-content;
+  color: white;
+  font-weight: 700px;
+  .menu_header {
+    padding: 5px;
+    font-size: 12px;
+    background-image: url("https://www.evolenthealth.com/sites/default/files/banner-interior.png");
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    .spacer {
+      grid-column: 1/1;
+    }
+  }
+  .menu {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: min-content 1fr auto min-content;
+    background-image: url("https://www.evolenthealth.com/sites/default/files/backgrounds/Gradation-Org-Yellow-1800x200.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+
+    .menu_title {
+      margin: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+      justify-content: center;
+      justify-self: center;
+      :hover {
+        color: gold;
+        cursor: pointer;
+      }
+    }
+
+    .spacer {
+      font-size: 12px;
+      grid-column-start: 2/2;
+    }
+  }
+}

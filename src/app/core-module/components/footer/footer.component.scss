@@ -1,0 +1,23 @@
+.menu {
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 1fr;
+  background-image: url("https://www.evolenthealth.com/sites/default/files/banner-interior.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+
+  .menu_option {
+    margin: 5px;
+    display: inline;
+    .spacer {
+      font-size: 12px;
+      grid-column-start: 3/3;
+    }
+    .menu_option_items {
+      font-size: 12px;
+      display: inline;
+      padding-left: 10px;
+    }
+  }
+}
