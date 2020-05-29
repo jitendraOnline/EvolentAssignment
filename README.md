@@ -1,6 +1,6 @@
 # ContactInfoApp
 
-the Project fetures managinig contact details 
+the Project fetures managinig contact details
 1.User can view his contact list.
 2.User can add new contacts.
 3.User can edit existing contacts.
@@ -9,11 +9,12 @@ the Project fetures managinig contact details
 ## Workspace Setup and Developyment.
 
 1.clone the project from the repository using the command.
-  git pull https://github.com/jitendraOnline/EvolentContactInfo.git.
+git pull https://github.com/jitendraOnline/EvolentAssignment.git.
 2.Open the project in visual sudio code type following command to download dependency.
-  npm install
+npm install
 3.To start the project on local machine run this commad.
-  npm start. 
+npm start.
+
 4. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
@@ -28,7 +29,6 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 The website is hosted on firebase url is https://mycontactevolent.web.app.
 
-# Asumption
- 
- there is no real back end for the services so only staic data in shown in the webaap.
- On reloading all the changes will be lost.
+## Asumption
+
+This is static Single Page Appliction and it not connect to anybackend api. So the changes will be lost on refresh
